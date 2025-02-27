@@ -1,0 +1,11 @@
+// const String API_URL = 'https://lotterybingo.pythonanywhere.com/';
+// final String API_URL = 'http://192.168.125.187:8000/';
+final String API_URL = 'http://192.168.112.187:8000/';
+// final String API_URL = 'http://127.0.0.1:8000/';
+final String image_url = '${API_URL}static/logo.jpg';
+final String audio_url = '${API_URL}static/audio/special/readyPlay.mp3';
+final String LOGIN_URL = '${API_URL}core/login/';
+final String USER_DATA_URL = '${API_URL}core/user-data/';
+final String dummy_data_url = '${API_URL}core/dummy-data/';
+final String REGISTER_URL = '${API_URL}core/register/';
+final String FORGOT_PASSWORD_URL = '${API_URL}core/forgot-password/';
